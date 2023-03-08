@@ -1,0 +1,1 @@
+this project challenged me in terms of grid and responsiveness, I spent a lot of time putting together the CSS code and I'm proud of how it ended up
