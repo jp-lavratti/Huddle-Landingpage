@@ -6,7 +6,7 @@ body{
     background-size: auto 100vh;
 }
 .container{
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns:minmax(709px, 1100px)  1fr;
     grid-template-rows: 200px auto 1fr;
@@ -60,11 +60,11 @@ body{
     display: flex;
     justify-content:flex-end ;
     align-items: flex-end;
-    margin: 50px 190px;
+    margin: 40px 140px;
     gap: 50px;
     font-size: 2.5rem;
 }
-.social-icon{
+.social-icon a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,11 +72,9 @@ body{
     height: 50px;
     border-radius: 100px;
     border: 2px #ffffff  solid;
-}
-a{
     color: #ffffff;
-}
-.social-icon:hover{
+}   
+.social-icon a:hover{
     color: #f552c6;
     border: 2px #f552c6 solid;
 }

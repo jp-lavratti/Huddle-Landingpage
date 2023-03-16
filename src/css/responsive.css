@@ -1,3 +1,9 @@
+@media (min-width:1980px){
+    .container{
+        max-width: 1800px;
+        margin: auto;
+    }
+}
 @media (max-width:1440px){
     .container{
         grid-template-columns: auto auto 200px;
@@ -21,7 +27,7 @@
         align-items: center;
     }
 }
-@media (max-width:1024px){
+@media (max-width:1240px){
     body{
         background: url(../images/bg-mobile.svg) var(--primary) no-repeat;
         background-size: 100vw;
@@ -68,6 +74,12 @@
     .logo img{
         width: 150px;
     }
+    .illustration-mockups{
+        margin: 0;
+    }
+    .container-texts{
+        margin: 10px 60px;
+    }
     .container-texts .title-container{
         font-size: 2.2rem;
     }
@@ -76,5 +88,13 @@
     }
     .btn{
         font-size: 1.6rem;
+    }
+    .fa-facebook-f, .fa-twitter, .fa-instagram{
+        width: 20px;
+        height: 20px;
+    }
+    .social-icon{
+        width: 40px;
+        height: 40px;
     }
 }
